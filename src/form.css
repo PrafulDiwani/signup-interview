@@ -1,0 +1,49 @@
+.form-input {
+  margin: 10px !important;
+}
+
+.MuiFormControlLabel-root {
+  margin-left: 40px;
+}
+
+form {
+  margin: 20px;
+}
+
+.form-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vh;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  max-width: 50%;
+  /* background-color: rgb(245, 245, 245); */
+  background-color: #f0efff;
+  height: auto;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 
+0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+@media only screen and (max-width: 600px) {
+  .form-container {
+    max-width: 100%;
+    padding: 0px;
+  }
+
+  form {
+    margin: 15px;
+  }
+}
